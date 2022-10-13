@@ -14,7 +14,6 @@ import {
 } from "@chakra-ui/react";
 import { ExternalLinkIcon, CopyIcon } from "@chakra-ui/icons";
 import { useEthers } from "@usedapp/core";
-import Identicon from "./Identicon";
 
 type Props = {
     isOpen: any;
@@ -85,7 +84,6 @@ export default function AccountModal({ isOpen, onClose }: Props) {
                             </Button>
                         </Flex>
                         <Flex alignItems="center" mt={2} mb={4} lineHeight={1}>
-                            <Identicon />
                             <Text
                                 color="white"
                                 fontSize="xl"

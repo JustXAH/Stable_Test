@@ -4,7 +4,7 @@ import { formatEther } from "@ethersproject/units";
 import Identicon from "./Identicon";
 
 type Props = {
-    handleOpenModal: any;
+    handleOpenModal?: any;
 };
 
 export default function ConnectButton({ handleOpenModal }: Props) {

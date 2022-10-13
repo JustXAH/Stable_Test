@@ -1,7 +1,8 @@
 import { useEffect, useRef } from "react";
 import { useEthers } from "@usedapp/core";
-import Jazzicon from "@metamask/jazzicon";
 import styled from "@emotion/styled";
+
+const Jazzicon = require('jazzicon')
 
 const StyledIdenticon = styled.div`
   height: 1rem;
